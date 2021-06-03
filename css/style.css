@@ -712,24 +712,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     font-size: 30px;
   }
-  .about__info {
-    position: relative;
-    display: flexbox;
-    padding: 0;
-    margin: 0px 0 0px 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    bottom: 0;
-    left: 0;
-  }
   .about__image img {
     height: 400px;
     width: 300px;
@@ -833,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) and (min-height: 999px) {
   .about__info {
     position: relative;
     display: flexbox;
